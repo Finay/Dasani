@@ -18,6 +18,6 @@ $ python main.py
 ```
 
 ## Gallery
-![Demo of Dashboard 1](https://github.com/Finay/Dasani/tree/main/photos/gallery1.png)
+![Demo of Dashboard 1](https://github.com/Finay/Dasani/blob/main/photos/gallery1.png)
 
-![Demo of Dashboard 2](https://github.com/Finay/Dasani/tree/main/photos/gallery2.png)
+![Demo of Dashboard 2](https://github.com/Finay/Dasani/blob/main/photos/gallery2.png)
