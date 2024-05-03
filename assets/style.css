@@ -1,0 +1,86 @@
+body, html {
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --split: 70%;
+}
+
+#main-container{
+    width: var(--split);
+    position: absolute;
+    right: 0;
+    padding-top: 15vh;
+    transition: width 0.8s ease;
+}
+
+#card {
+    position: fixed;
+    left: 0;
+    width: calc(100% - var(--split));
+    height: 100%;
+    margin: 0;
+    top: 0;
+    background: #35A7FF;
+    color: #FFFFFF;
+    transition: width 0.8s ease;
+}
+
+#card h1, #card label {
+    color: #2B2D42;
+}
+
+#card label {
+    margin-top: 5%;
+    font-size: 1.3rem;
+}
+
+.Select-menu-outer div {
+    color: #2B2D42 !important;
+}
+
+h5 {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    font-size: 0.8rem;
+}
+
+.container-title {
+    text-align: center;
+    color: #FF5964;
+}
+
+a {
+    color: #FFE74C;
+}
+
+.card-body{
+    padding-top: 10vh;
+}
+
+.row {
+    margin-bottom: 5vh;
+}
+
+.dot {
+    position: absolute;
+    top: 2vh;
+    height: 40px;
+    width: 40px;
+    background-color: #FF5964;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+
+.dot:hover {
+    transform: translate(5px, -5px);
+    filter: drop-shadow(-5px 5px 0 #2B2D42);
+}
+
+#close {
+    transition: all 0.8s ease;
+}
